@@ -1,0 +1,221 @@
+body {
+    height: 100%;
+    background-color: black;
+
+}
+.container-section {
+    background-image: url('https://wallpapercave.com/wp/wp5527423.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.collapse {
+    display: flex;
+}
+.home {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.alexandra-name {
+    font-family: 'Ballet', cursive;    
+    font-size: 100px;
+    position: relative;
+}
+.alexandra-name .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+#introduction-name1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom:-30px;
+}
+#introduction-name2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top:-60px;
+}
+.home-about {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 10% 15%;
+}
+.home-about-img {
+    position: relative;
+    padding-bottom: 50px;
+}
+#personal-dots {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.personal-photo {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 6%;
+}
+.home-about-text {
+    color: white;
+    text-align:left;
+    margin-top: 5%;
+    font-family: 'Bodoni Moda', serif;
+}
+.home-about-text h1 {
+    padding-bottom: 15%;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.home-about-text p {
+    font-size: 20px;
+}
+#motto-text {
+    margin-left: 30px;
+    font-family: 'Bad Script', cursive;    
+    font-size: 25px;
+}
+.container-title {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+.education-content {
+    margin: 3% 10% 15%;
+    color: white;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+}
+.education-content p {
+    padding: 30px;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+}
+.skills-content {
+    margin: 3% 10% 15%;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    font-size: 15px;
+    justify-content: space-around;
+}
+.skills-container  {
+    padding: 3%;
+    margin: 3% 0% 3% 0%;
+    border-radius: 3%;
+    border: 2px solid rgba(165,180,199,255);
+    text-align: left;
+}
+.svg-content {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.text-skills {
+    color: #a5b4c7;
+    text-align: left;
+    font-size: 20px;
+}
+.link-skills {
+    text-decoration: none;
+}
+.carousel {
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+    position: relative;
+    padding: 0% 3% 3% 3%;
+}
+.carousel-button {
+    background: none;
+    border: none;
+}
+.movieandchill-project {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.title-movieandchill {
+    display: flex;
+    justify-content: space-around;
+}
+.movieandchill-project h2 {
+    margin-bottom: 50px;
+}
+#github-movieandchill {
+    width: 40px;
+    height: 40px;
+}
+
+#carouselExampleCaptions {
+    width: 90%;
+    margin-left: 50px;
+}
+.contantme-content {
+    padding: 30px;
+    margin: 0% 20% 0% 20%;
+}
+.contact-details {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-details p,h4 {
+    padding: 5px;
+}
+.contactme-form {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+.contactme-form input, textarea {
+    background-color: black;
+    margin: 10px;
+    border: 0.5px solid grey;
+    padding: 5px;
+    width: 400px;
+    color: white;
+}
+.submit-button input {
+    width: 200px;
+    height: 50px;
+    margin: 5% 10% 3% 50%;
+    color: white;
+}
+.img-social svg {
+    width: 30px;
+    height: 30px;
+}
+.Footer-page {
+    padding: 20px;
+    margin: 10px;
+    border-top: 1px solid grey;
+}
+.social-contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 30% 0% 30%;
+}
+.text-footer {
+    margin: 2% 30% 0% 30%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+#linkedin-account {
+    text-decoration: none;
+    color: white;
+}
