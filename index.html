@@ -378,25 +378,25 @@
                         <a href='https://www.linkedin.com/in/alexandra-onet/' target="_blank" id='linkedin-account'>
                             <p>@alexandra-onet</p>
                         </a>
-                            </div>
+                    </div>
                 </div>
                 <div class="contactme-form col-lg-6">
                     <h2>Contact me</h2>
                     <div id='error_message'></div>
-                    <form id='myform' onsubmit='return sendEmail()'>
+                    <form id='myform' onsubmit='sendEmail()'>
                         <div>
-                            <div class='input_field'>
-                                <input type='text' placeholder='Name' id='name'>
+                            <div class="input_field">
+                                <input type="text" placeholder="Name" id="name">
                             </div>
-                            <div class='input_field'>
-                                <input type='text' placeholder='Email' id='email'>
+                            <div class="input_field">
+                                <input type="text" placeholder="Email" id="email">
                             </div>
-                        </div>
-                        <div class='input_field'>
-                            <textarea id='message' placeholder='Message'></textarea>
-                        </div>
-                        <div class='submit-button'>
-                            <input type='submit' value='Send Email'>
+                            <div class="input_field">
+                                <input type="text" placeholder="Message" id="message">
+                            </div>
+                            <div class="submit-button">
+                                <input type="button" value="Send Email" onclick="sendEmail()">
+                            </div>
                         </div>
                     </form>
                 </div>
