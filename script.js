@@ -11,12 +11,11 @@ function sendEmail() {
     }
     error_message.style.padding = '10px';
 
-
     if (name.length < 5) {
         text = 'Please Enter Valid Name';
         error_message.innerHTML = text;
     }
-    if (message.length <= 1) {
+    if (message.length <= 0) {
         text = 'Please Enter Message';
         error_message.innerHTML = text;
     }
